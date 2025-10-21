@@ -516,7 +516,7 @@
                     if (playPromise !== undefined) {
                         playPromise.catch(error => {
                             console.error("Play was prevented:", error);
-                            setPlaybackError("لم يتمكن من التشغيل. اضغط مرة أخرى للتشغيل أو افتح التطبيق في متصفح خارجي.");
+                            setPlaybackError("لم يتمكن من التشغيل. انسخ رابط التطبيق وافتحه في متصفح خارجي مثل جوجل كروم.");
                             setIsLoading(false);
                             setIsPlaying(false);
                         });
